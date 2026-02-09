@@ -4,7 +4,6 @@
 ! author: FindMe.wiki
 ! homepage: https://findme.wiki/
 
-$discard
 $discard,site=*.linkedin.com
 $downrank,site=google.com
 
