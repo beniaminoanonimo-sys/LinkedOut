@@ -1,0 +1,48 @@
+! name: FindMe Wiki Social Media
+! description: Search results from social media sites.
+! public: true
+! author: FindMe.wiki
+! homepage: https://findme.wiki/
+
+$discard
+$discard,site=*.linkedin.com
+$downrank,site=google.com
+
+
+$boost=3,site=facebook.com
+$boost=3,site=twitter.com
+$boost=3,site=youtube.com
+$boost=3,site=instagram.com
+$boost=3,site=gettr.com
+$boost=3,site=truthsocial.com
+$boost=3,site=pinterest.com
+$boost=3,site=tiktok.com
+$boost=3,site=telegram.com
+$boost=3,site=locals.com
+$boost=3,site=rumble.com
+$boost=3,site=gab.com
+$boost=3,site=parler.com
+$boost=3,site=tumblr.com
+$boost=3,site=reddit.com
+$boost=3,site=lbry.com
+$boost=3,site=brighteon.com
+$boost=3,site=substack.com
+$boost=3,site=steemit.com
+$boost=3,site=rokfin.com
+$boost=3,site=wechat.com
+$boost=3,site=pocketnet.com
+$boost=3,site=discord.com
+$boost=3,site=mewe.com
+$boost=3,site=odysee.com
+$boost=3,site=vimeo.com
+$boost=3,site=quora.com
+$boost=3,site=twitch.com
+$boost=3,site=snapchat.com
+$boost=3,site=whatsapp.com
+$boost=3,site=meetup.com
+$boost=3,site=clouthub.com
+$boost=3,site=houseparty.com
+$boost=3,site=clubhouse.com
+$boost=3,site=nextdoor.com
+$boost=3,site=liiighthouse.com
+$boost=3,site=linktr.ee
